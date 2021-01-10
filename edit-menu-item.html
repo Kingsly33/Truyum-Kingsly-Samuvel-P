@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<header>TruYum  <img src="images/truyum.png"/>
+<nav>
+<a class="a2" href="C:\Users\890381\Desktop\Truyum-890381\menu-item-list-customer.html">Menu</a>
+</nav>
+</header><br>
+<form class="emenu">
+<p class="p1">Edit Menu Item</p><br>
+<label>Name</label>
+<input type="text" name="title" size="80" required>
+<table>
+<tr>
+<td id="Table1">Price (Rs.)</td>
+<td id="Table1">Active</td>
+<td id="Table1">Date of Launch</td>
+<td id="Table1">Category</td>
+</tr>
+<tr>
+<td><input type="number" name="price" required></td>
+<td>
+<input type="radio" name="InStock" value="Yes" required>Yes
+<input type="radio" name="InStock" value="No" required>No
+</td>
+<td><input type="text" name="DateOfLaunch"></td>
+<td><select name="Category">
+<option value="Main Course">Main Course</option>
+<option value="Starters">Startes</option>
+<option value="Desserts">Desserts</option>
+<option value="Drinks">Drinks</option>
+</select></td>
+</tr>
+<tr>
+<td class="Table1"><input type="checkbox" class="cb">Free Delivery</td>
+</tr>
+</table>
+<button type="submit" value="submit" class="button" onclick="document.location='edit-menu-item-status.html'">Save</button>
+</form>
+<footer>Copyright &copy 2019</footer>
+</body>
